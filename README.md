@@ -58,7 +58,6 @@ func indexPage(w http.ResponseWriter, r *http.Request) {
 ## Validation rules
 
 - NewField(required bool, singleFile bool, rules []Rule)
-
 - FileSize(min, max uint64)
 - MimeTypes(list []string)
 - MinPixelSize(width, height uint32)
